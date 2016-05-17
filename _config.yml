@@ -2,11 +2,13 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
+title:               Arne Groskurth
+tagline:             Climbing & Computer Science
+url:                 http://arne-groskurth.de
+paginate:            3
+paginate_path:       "/blog/page-:num/"
 baseurl:             ""
+excerpt_separator:   "<!--more-->"
 
 # Assets
 #
@@ -17,14 +19,13 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Arne Groskurth
+  url:               http://arne-groskurth.de
+  email:             kontakt@arne-groskurth.de
 
 # Custom vars
-version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/arnegroskurth/arnegroskurth.github.io
 
 # Gems
 gems:

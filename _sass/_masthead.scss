@@ -5,7 +5,7 @@
 .masthead {
   padding-top:    1rem;
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .masthead-title {
@@ -22,4 +22,13 @@
     font-weight: 400;
     opacity: .5;
   }
+}
+
+.about-me-link {
+  padding: 0 0 0 15px;
+  font-size: 80%;
+  visibility: hidden;
+}
+.masthead:hover .about-me-link {
+  visibility: visible;
 }
